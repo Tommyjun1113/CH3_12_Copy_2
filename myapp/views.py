@@ -7,7 +7,7 @@ from myapp.models import *
 
 # Create your views here.
 def test(request):
-    return HttpResponse("Hello word!!")
+    return HttpResponse("Hello word!!!!!!!!")
 def search_list(request):
     if 'cName' in request.GET:
         cName = request.GET['cName']
